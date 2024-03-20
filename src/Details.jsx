@@ -3,7 +3,7 @@ export function Details({title, setTitle}) {
         <>
         <h1>{title}</h1>
         <div>Hello, my world !!!</div>
-        <button onClick={() => setTitle('New title')}>Click</button>
+        <button onClick={() => setTitle(prev => prev + 'new')}>Click</button>
         </>
     )
 }
