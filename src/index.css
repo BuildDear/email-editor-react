@@ -1,7 +1,13 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  width: 100%;
+  background-color: bisque;
 }
+
+.home {
+  display: grid;
+  grid-template-columns: 1fr .8fr;
+  padding: 1.5rem; 
+}
+
+
 

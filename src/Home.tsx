@@ -3,7 +3,7 @@ import { EmailList } from "./components/email-list/EmailList";
 
 
 export function Home() {
-    return <div>
+    return <div className="home">
         <EmailEditor/>
         <EmailList/>
     </div>
