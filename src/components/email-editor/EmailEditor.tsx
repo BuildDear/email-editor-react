@@ -9,10 +9,10 @@ export function EmailEditor() {
 
     <div className={styles.card}>
       
-      <div className={styles.editor}>
+      <textarea className={styles.editor} spellCheck='false'>
       Hey, Marik
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet, amet? Nulla expedita possimus pariatur corrupti, ullam magni, dolores earum impedit minus sed, et velit animi dolorum eveniet temporibus ad nostrum.
-      </div>
+      </textarea>
 
       <div className={styles.actions}>
 

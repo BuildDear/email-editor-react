@@ -4,18 +4,40 @@
   padding: 1.5rem;
 }
 .card .editor {
+  background-color: rgb(194, 172, 147);
+  border-radius: 5px;
   padding-bottom: 1.5rem;
+  display: block;
+  width: 99%;
+  min-height: 200px;
+  border: none;
+  outline: none;
+  resize: none;
 }
 .card .actions {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgb(245, 184, 109);
+  border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0.5rem;
+}
+.card .actions .tools > button {
+  margin-right: 0.5rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+.card .actions .tools > button:hover {
+  color: deepskyblue;
 }
 .card .actions .send_button {
   border-radius: 8px;
   font-size: 1em;
+  transition: color 0.2s ease-in-out;
 }
 .card .actions .send_button:hover {
   color: deepskyblue;
+  border-color: deepskyblue;
 }
